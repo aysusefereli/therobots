@@ -1,0 +1,28 @@
+@use 'first';
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+
+  .menu_icon{
+    position: absolute;
+    right: 90px;
+    top: 17px;
+  }
+
+  input {
+    position: absolute;
+    left: 90px;
+    top: 8px;
+    height: 40px;
+    width: 180px;
+    border-width: 1px;
+    border-color: #c0c0c0;
+    padding-left: 50px;
+  }
+
+}

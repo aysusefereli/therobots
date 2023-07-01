@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+.firstsection {
+  background-repeat: no-repeat;
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/95c78e1f97bf5735b1d25ece/CoverStory_robots.jpg);
+  background-size: cover;
+  height: 730px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.firstsection .firstpage {
+  position: absolute;
+  top: 110px;
+  right: 140px;
+}
+.firstsection .firstpage .text {
+  font-family: "Open Sans", sans-serif;
+}
+.firstsection .firstpage .text h1 {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.firstsection .firstpage .text p {
+  font-size: 24px;
+  width: 590px;
+  line-height: 1.6;
+}
+.firstsection .firstpage .line {
+  height: 130px;
+  width: 14px;
+  background-color: #b9dfdf;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+header .menu_icon {
+  position: absolute;
+  right: 90px;
+  top: 17px;
+}
+header input {
+  position: absolute;
+  left: 90px;
+  top: 8px;
+  height: 40px;
+  width: 180px;
+  border-width: 1px;
+  border-color: #c0c0c0;
+  padding-left: 50px;
+}/*# sourceMappingURL=style.css.map */

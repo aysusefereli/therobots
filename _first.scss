@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.firstsection {
+    // padding: 120px 100px 310px 720px;
+    background-repeat: no-repeat;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/95c78e1f97bf5735b1d25ece/CoverStory_robots.jpg);
+    background-size: cover;
+    height: 730px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+  .firstpage {
+    position: absolute;
+    top: 110px;
+    right: 140px;
+
+    .text {
+       font-family: 'Open Sans',sans-serif;
+
+       h1 {
+        font-size: 100px;
+        font-weight: bold;
+        line-height: 1.2;       
+      }
+
+       p {
+        font-size: 24px;
+        width: 590px;
+        line-height: 1.6;
+      }
+
+   }
+
+    .line {
+       height: 130px;
+       width: 14px;
+       background-color: #b9dfdf;
+   }
+
+  }
+
+}
+
