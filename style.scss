@@ -1,4 +1,10 @@
 @use 'first';
+@use 'second';
+@use 'third';
+@use 'fourth';
+@use 'fifth';
+@use 'sixth';
+@use 'seventh';
 
 header {
     height: 60px;
@@ -6,7 +12,6 @@ header {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    
 
   .menu_icon{
     position: absolute;

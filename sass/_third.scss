@@ -1,0 +1,42 @@
+.future { 
+    display: flex;
+    flex-direction: row;
+
+    .future_work {
+        background-color: #1a1a1a;
+        color: white;
+        height: 480px;
+        width: 680px;
+        position: relative;
+        line-height: 1.6;
+
+        h1 {
+            position: absolute;
+            top: 80px;
+            left: 90px;
+        } 
+
+        p {
+            position: absolute;
+            top: 130px;
+            left: 90px;
+            width: 430px; 
+        }
+
+        .robots_photos {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            top: 230px;
+            left: 75px;
+        }
+        
+    }
+
+    .work {
+        background-color: #b9dfdf;
+        height: 480px;
+        width: 680px;   
+    }
+
+}

@@ -2,7 +2,10 @@
   margin: 0;
 }
 
-.firstsection {
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body .firstsection {
   background-repeat: no-repeat;
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/95c78e1f97bf5735b1d25ece/CoverStory_robots.jpg);
   background-size: cover;
@@ -11,28 +14,234 @@
   display: flex;
   flex-direction: column;
 }
-.firstsection .firstpage {
+body .firstsection .firstpage {
   position: absolute;
   top: 110px;
   right: 140px;
 }
-.firstsection .firstpage .text {
+body .firstsection .firstpage .text {
   font-family: "Open Sans", sans-serif;
 }
-.firstsection .firstpage .text h1 {
+body .firstsection .firstpage .text h1 {
   font-size: 100px;
   font-weight: bold;
   line-height: 1.2;
 }
-.firstsection .firstpage .text p {
+body .firstsection .firstpage .text p {
   font-size: 24px;
   width: 590px;
   line-height: 1.6;
 }
-.firstsection .firstpage .line {
+body .firstsection .firstpage .line {
   height: 130px;
   width: 14px;
   background-color: #b9dfdf;
+}
+
+.technology_news {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 600px;
+}
+.technology_news .news {
+  position: absolute;
+  left: 100px;
+  top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.6;
+}
+.technology_news .news h5 {
+  font-size: 20px;
+}
+.technology_news .news h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.technology_news .news p {
+  width: 520px;
+  font-size: 20px;
+}
+.technology_news img {
+  position: absolute;
+  right: 100px;
+  top: 80px;
+}
+
+.future {
+  display: flex;
+  flex-direction: row;
+}
+.future .future_work {
+  background-color: #1a1a1a;
+  color: white;
+  height: 480px;
+  width: 680px;
+  position: relative;
+  line-height: 1.6;
+}
+.future .future_work h1 {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+}
+.future .future_work p {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  width: 430px;
+}
+.future .future_work .robots_photos {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 230px;
+  left: 75px;
+}
+.future .work {
+  background-color: #b9dfdf;
+  height: 480px;
+  width: 680px;
+}
+
+.fourthpage {
+  height: 660px;
+}
+.fourthpage .therobots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+.fourthpage .therobots .CES {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+.fourthpage .therobots .CES h1 {
+  background-color: #aea16a;
+  color: white;
+  height: 170px;
+  width: 330px;
+  font-size: 48px;
+  line-height: 1.1;
+  padding: 40px 20px 0px 20px;
+}
+.fourthpage .therobots .CES .robots {
+  margin-top: 10px;
+}
+.fourthpage .therobots .man {
+  margin: 70px 0 0 482px;
+}
+.fourthpage .therobots .robot_text {
+  background-color: #b9dfdf;
+  height: 470px;
+  width: 360px;
+  line-height: 1.6;
+  margin: 70px 120px 0 0;
+  padding-left: 10px;
+}
+.fourthpage .therobots .robot_text p {
+  color: rgba(0, 0, 0, 0.589);
+  font-size: 20px;
+  margin: 60px 20px 60px 20px;
+}
+.fourthpage .learnmore {
+  text-align: center;
+}
+.fourthpage .learnmore a {
+  text-decoration: none;
+  color: black;
+  background-color: #b9dfdf;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+}
+.fourthpage .learnmore a:hover {
+  background-color: #a4c7c7;
+}
+
+.fifthpage {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+}
+.fifthpage h2 {
+  color: #aea16a;
+  font-size: 25px;
+  line-height: 4;
+}
+.fifthpage p {
+  color: white;
+  font-size: 20px;
+  width: 320px;
+  line-height: 1.5;
+}
+.fifthpage .robotization {
+  margin-left: 150px;
+}
+.fifthpage .industry {
+  margin-right: 100px;
+}
+
+.sixthpage {
+  height: 820px;
+}
+.sixthpage .trends {
+  text-align: center;
+  line-height: 2.1;
+  margin-top: 40px;
+}
+.sixthpage .trends h1 {
+  color: #aea16a;
+  font-size: 48px;
+}
+.sixthpage .trends p {
+  font-size: 20px;
+  width: 800px;
+  line-height: 1.6;
+  margin-left: 280px;
+}
+.sixthpage .trendrobots {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0 0 100px;
+}
+
+.seventhpage {
+  background-color: #000000;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.seventhpage hr {
+  height: 250px;
+  width: 15px;
+  background-color: #aea16a;
+  margin: 130px 0 0 100px;
+}
+.seventhpage .jeff_bozes {
+  color: white;
+}
+.seventhpage .jeff_bozes img {
+  margin: 85px 0 0 40px;
+}
+.seventhpage .jeff_bozes p {
+  font-size: 22px;
+  width: 1045px;
+  line-height: 1.8;
+  margin: 0 0 30px 65px;
+}
+.seventhpage .jeff_bozes h1 {
+  font-size: 30px;
+  text-align: end;
+  margin: 0 0 0 20px;
 }
 
 header {

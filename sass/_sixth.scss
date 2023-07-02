@@ -1,0 +1,27 @@
+.sixthpage {
+    height: 820px;
+    
+    .trends {
+        text-align: center;
+        line-height: 2.1;
+        margin-top: 40px;
+        
+        h1{
+            color: #aea16a;
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 20px;
+            width: 800px;
+            line-height: 1.6;
+            margin-left: 280px;
+        }
+    }
+
+    .trendrobots {
+        display: flex;
+        flex-direction: row;
+        margin: 100px 0 0 100px;
+    }
+}

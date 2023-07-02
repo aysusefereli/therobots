@@ -1,0 +1,28 @@
+.fifthpage {
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+
+    h2 {
+        color: #aea16a;
+        font-size: 25px ;
+        line-height: 4;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+        width: 320px;
+        line-height: 1.5;
+    }
+
+    .robotization {
+        margin-left: 150px;
+    }
+
+    .industry {
+       margin-right: 100px; 
+    }
+}
