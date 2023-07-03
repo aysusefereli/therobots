@@ -1,10 +1,10 @@
-@use 'first';
-@use 'second';
-@use 'third';
-@use 'fourth';
-@use 'fifth';
-@use 'sixth';
-@use 'seventh';
+@use 'sass/first';
+@use 'sass/second';
+@use 'sass/third';
+@use 'sass/fourth';
+@use 'sass/fifth';
+@use 'sass/sixth';
+@use 'sass/seventh';
 
 header {
     height: 60px;
@@ -27,7 +27,13 @@ header {
     width: 180px;
     border-width: 1px;
     border-color: #c0c0c0;
-    padding-left: 50px;
+    padding-left: 35px;
+    background-image: url(assets/img/search.icon.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 10px 13px;
+    
+    
   }
 
 }

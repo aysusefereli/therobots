@@ -31,30 +31,12 @@
     }
     
     .man {
-        // position: absolute;
-        // top: 70px;
-        // left: 482px;
-        margin: 70px 0 0 482px;
-
+        margin: 70px 0 0 484px;
     }
-    
-    // p {
-    //     background-color: #b9dfdf;
-    //     color:rgba(0, 0, 0, 0.589) ;
-    //     height: 310px;
-    //     width: 335px;
-    //     margin-top: 50px;
-    //     font-size: 20px;
-    //     line-height: 1.6;
-    //     padding: 80px 30px 80px 30px;
-    //     position: absolute;
-    //     top: 20px;
-    //     right: 100px;
-    // }
 
     .robot_text{
         background-color: #b9dfdf;
-        height: 470px;
+        height: 472px;
         width: 360px;
         line-height: 1.6;
         margin: 70px 120px 0 0;
@@ -75,6 +57,7 @@
         a {
             text-decoration: none;
             color: black;
+            font-weight: bold;
             background-color:  #b9dfdf;
             padding: 15px 25px 15px 25px;
             cursor: pointer;

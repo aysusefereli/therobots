@@ -5,7 +5,8 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-body .firstsection {
+
+.firstsection {
   background-repeat: no-repeat;
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/95c78e1f97bf5735b1d25ece/CoverStory_robots.jpg);
   background-size: cover;
@@ -14,25 +15,25 @@ body .firstsection {
   display: flex;
   flex-direction: column;
 }
-body .firstsection .firstpage {
+.firstsection .firstpage {
   position: absolute;
   top: 110px;
   right: 140px;
 }
-body .firstsection .firstpage .text {
+.firstsection .firstpage .text {
   font-family: "Open Sans", sans-serif;
 }
-body .firstsection .firstpage .text h1 {
+.firstsection .firstpage .text h1 {
   font-size: 100px;
   font-weight: bold;
   line-height: 1.2;
 }
-body .firstsection .firstpage .text p {
+.firstsection .firstpage .text p {
   font-size: 24px;
   width: 590px;
   line-height: 1.6;
 }
-body .firstsection .firstpage .line {
+.firstsection .firstpage .line {
   height: 130px;
   width: 14px;
   background-color: #b9dfdf;
@@ -51,7 +52,7 @@ body .firstsection .firstpage .line {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 .technology_news .news h5 {
   font-size: 20px;
@@ -136,11 +137,11 @@ body .firstsection .firstpage .line {
   margin-top: 10px;
 }
 .fourthpage .therobots .man {
-  margin: 70px 0 0 482px;
+  margin: 70px 0 0 484px;
 }
 .fourthpage .therobots .robot_text {
   background-color: #b9dfdf;
-  height: 470px;
+  height: 472px;
   width: 360px;
   line-height: 1.6;
   margin: 70px 120px 0 0;
@@ -157,6 +158,7 @@ body .firstsection .firstpage .line {
 .fourthpage .learnmore a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
   background-color: #b9dfdf;
   padding: 15px 25px 15px 25px;
   cursor: pointer;
@@ -230,7 +232,7 @@ body .firstsection .firstpage .line {
   color: white;
 }
 .seventhpage .jeff_bozes img {
-  margin: 85px 0 0 40px;
+  margin: 110px 0 0 40px;
 }
 .seventhpage .jeff_bozes p {
   font-size: 22px;
@@ -264,5 +266,9 @@ header input {
   width: 180px;
   border-width: 1px;
   border-color: #c0c0c0;
-  padding-left: 50px;
+  padding-left: 35px;
+  background-image: url(assets/img/search.icon.png);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 10px 13px;
 }/*# sourceMappingURL=style.css.map */
