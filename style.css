@@ -246,6 +246,49 @@ body {
   margin: 0 0 0 20px;
 }
 
+.eighthpage {
+  height: 880px;
+  background-color: #b9dfdf;
+  display: flex;
+  flex-direction: row;
+  padding: 90px 0 0 100px;
+}
+.eighthpage img {
+  height: 792px;
+  width: 684px;
+}
+.eighthpage .intelligence_robots {
+  background-color: #d7eded;
+  width: 456px;
+  height: 792px;
+}
+.eighthpage .intelligence_robots h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  width: 390px;
+  margin: 52px 0 0 28px;
+}
+.eighthpage .intelligence_robots p {
+  font-size: 20px;
+  margin: 52px 0 0 28px;
+  width: 400px;
+  line-height: 1.6;
+}
+.eighthpage .intelligence_robots .intelligence_learnmore {
+  margin: 52px 0 0 28px;
+}
+.eighthpage .intelligence_robots .intelligence_learnmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #b9dfdf;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+}
+.eighthpage .intelligence_robots .intelligence_learnmore a:hover {
+  background-color: #a4c7c7;
+}
+
 header {
   height: 60px;
   display: flex;
