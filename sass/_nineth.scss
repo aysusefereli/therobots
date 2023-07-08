@@ -1,0 +1,57 @@
+.ninethpage {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px 0 100px;
+
+    .AI_photo {
+        img {
+            height: 90%;
+            width: 95%;
+            object-fit: cover;
+        }
+    }
+
+    .perspectives {
+        img {
+            height: 25%;
+            width: 40%;
+            float: right;
+        }
+
+        h5 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 200px;
+        }
+
+        h2 {
+            font-size: 45px;
+            line-height: 2;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            width: 530px;
+        }
+
+        .perspectives_learnmore {
+            margin-top: 40px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                background-color:  #b9dfdf;
+                padding: 15px 30px 15px 30px;
+                cursor: pointer;
+    
+                &:hover {
+                    background-color: #a4c7c7 ;
+                }
+            }
+        }
+        
+    }
+}

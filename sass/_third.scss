@@ -29,6 +29,10 @@
             position: absolute;
             top: 230px;
             left: 75px;
+            
+            img {
+                object-fit: cover;
+            }
         }
         
     }

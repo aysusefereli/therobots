@@ -3,23 +3,23 @@
     background-color: #b9dfdf;
     display: flex;
     flex-direction: row;
-    padding: 90px 0 0 100px;
+    padding: 90px 100px 0 100px;
 
     img {
-        height: 792px;
-        width: 684px;
+        width: 100%;
+        height: 90%;
     }
 
     .intelligence_robots {
         background-color: #d7eded;
         width: 456px;
         height: 792px;
-
+        
         h1 {
             font-size: 50px;
             line-height: 1.2;
             width: 390px;
-            margin: 52px 0 0 28px;
+            margin: 52px 28px 0 28px;
         }
 
         p {
@@ -37,13 +37,16 @@
                 color: black;
                 font-weight: bold;
                 background-color:  #b9dfdf;
-                padding: 15px 25px 15px 25px;
+                padding: 15px 30px 15px 30px;
                 cursor: pointer;
+
+                &:hover {
+                    background-color: #a4c7c7 ;
+                }
             }
 
-            a:hover {
-                background-color: #a4c7c7 ;
-            }
         }
+
     }
+    
 }
