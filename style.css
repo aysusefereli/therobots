@@ -131,6 +131,78 @@ header input {
   width: 680px;
 }
 
+@media (max-width: 800px) {
+  .future {
+    width: 910px;
+    background-color: #1a1a1a;
+  }
+  .future .future_work {
+    height: 3400px;
+  }
+  .future .future_work h1 {
+    width: 300px;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+  }
+  .future .future_work p {
+    width: 600px;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+  }
+  .future .future_work .robots_photos {
+    flex-direction: column;
+    margin-top: 10px;
+    position: absolute;
+    left: 150px;
+  }
+  .future .future_work .robots_photos img {
+    width: 600px;
+    height: 500px;
+  }
+  .future .work {
+    height: 3100px;
+    margin-top: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .future {
+    background-color: #1a1a1a;
+  }
+  .future .future_work {
+    height: 5000px;
+  }
+  .future .future_work h1 {
+    width: 500px;
+    font-size: 60px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+  }
+  .future .future_work p {
+    width: 780px;
+    font-size: 40px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+  }
+  .future .future_work .robots_photos {
+    margin-top: 400px;
+    position: absolute;
+    left: 100px;
+  }
+  .future .future_work .robots_photos img {
+    width: 700px;
+    height: 770px;
+  }
+  .future .work {
+    height: 5000px;
+    margin-top: 450px;
+  }
+}
 .fourthpage {
   height: 660px;
 }
@@ -323,51 +395,6 @@ header input {
   background-color: #a4c7c7;
 }
 
-@media (max-width: 800px) {
-  .eighthpage {
-    width: 720px;
-    height: 1350px;
-    padding: 70px 50px 0 50px;
-    flex-direction: column;
-  }
-  .eighthpage .intelligence_robots {
-    width: 720px;
-    height: 550px;
-  }
-  .eighthpage .intelligence_robots h1 {
-    width: 700px;
-  }
-  .eighthpage .intelligence_robots p {
-    width: 650px;
-  }
-  .eighthpage img {
-    height: 105%;
-  }
-}
-@media (max-width: 400px) {
-  .eighthpage {
-    height: 2600px;
-  }
-  .eighthpage .intelligence_robots {
-    margin: 350px 0 0 0;
-    width: 700px;
-    height: 1450px;
-  }
-  .eighthpage .intelligence_robots h1 {
-    font-size: 70px;
-    width: 500px;
-  }
-  .eighthpage .intelligence_robots p {
-    font-size: 40px;
-  }
-  .eighthpage img {
-    height: 150%;
-    width: 97%;
-  }
-  .eighthpage a {
-    font-size: 30px;
-  }
-}
 .ninethpage {
   height: 800px;
   display: flex;
