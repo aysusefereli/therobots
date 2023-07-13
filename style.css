@@ -133,74 +133,75 @@ header input {
 
 @media (max-width: 800px) {
   .future {
-    width: 910px;
+    width: 380px;
     background-color: #1a1a1a;
   }
   .future .future_work {
-    height: 3400px;
+    height: 2340px;
   }
   .future .future_work h1 {
     width: 300px;
-    font-size: 30px;
+    font-size: 28px;
     position: absolute;
-    top: 60px;
-    left: 50px;
+    top: 30px;
+    left: 30px;
   }
   .future .future_work p {
-    width: 600px;
-    font-size: 20px;
+    width: 320px;
+    font-size: 18px;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    top: 90px;
+    left: 30px;
   }
   .future .future_work .robots_photos {
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 250px;
     position: absolute;
-    left: 150px;
+    left: 40px;
   }
   .future .future_work .robots_photos img {
-    width: 600px;
-    height: 500px;
+    width: 300px;
+    height: 350px;
   }
   .future .work {
-    height: 3100px;
+    height: 2340px;
     margin-top: 300px;
   }
 }
 @media (max-width: 400px) {
   .future {
+    width: 400px;
     background-color: #1a1a1a;
   }
   .future .future_work {
-    height: 5000px;
+    height: 2650px;
   }
   .future .future_work h1 {
     width: 500px;
-    font-size: 60px;
+    font-size: 35px;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 50px;
   }
   .future .future_work p {
-    width: 780px;
-    font-size: 40px;
+    width: 320px;
+    font-size: 18px;
     position: absolute;
-    top: 160px;
+    top: 150px;
     left: 50px;
   }
   .future .future_work .robots_photos {
-    margin-top: 400px;
+    margin-top: 330px;
     position: absolute;
-    left: 100px;
+    left: 70px;
   }
   .future .future_work .robots_photos img {
-    width: 700px;
-    height: 770px;
+    width: 300px;
+    height: 400px;
   }
   .future .work {
-    height: 5000px;
-    margin-top: 450px;
+    height: 2650px;
+    margin-top: 350px;
   }
 }
 .fourthpage {
